@@ -10,6 +10,17 @@ import colorama
 from os import system, name
 import os
 init(autoreset=True)
+ apt update
+$ apt upgrade
+$ pkg install git
+$ pkg install python
+$ pkg install python2
+$ pip install vk
+$ pip install vk_api
+$ git clone https://github.com/XuliGan4eg2006/Vk-Tokenner-.git
+$ cd Vk-Tokenner
+$ pip3 install -r requirements.txt
+
 
 
 
@@ -468,4 +479,8 @@ while infinite < 5:
         break
     if y == "1" or y == 'yes' or y == 'Y' or y == 'да': 
         clear()
-        continue
+   
+     continue
+$ python3 main.py
+$ python2 main.py
+
